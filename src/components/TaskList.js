@@ -18,6 +18,8 @@ export default function TaskList(){
             .then(data => setTasks(data))
             .catch(alert)
     },[])
+
+    //we need to pass this TASKS => data to the List component
     return(
         <List
         bordered
@@ -26,3 +28,6 @@ export default function TaskList(){
         />
     )
 }
+
+
+

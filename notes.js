@@ -42,3 +42,29 @@
 // in fetch on tasklist.js add url ('https://much-todo-dk)
 //do a catch alert and in then response =>response.json(() tasklist.js
 //wtvr data comes back add in .then (data=>setTasks(data)) tasklist.js
+//go to postman copy url link and create in collection todo-app-api
+//open it up w arrow  and add a request type create new Task and make it a post
+//past link w /task next to post click on body/raw go to dropdown text and make it json
+//make {} in body u look in muchtodoAPI folder in tasks.js u will see its requesting body.task thats what u pass in
+//add "task":"happy hour with friends" and press send check localhost
+//create a file in componenents called newTask.js to add new data to the system 
+//export default NewTask with return
+// import NewTask from './newTask' to main.js
+//import {Input} from "antd" from Ant.design 
+//in Main.js add <Newtask />
+//and <input/> into function of NewTask.js w fragments 
+//add placeholder="enter task name" in input on newtask.js
+//in newtask.js do const[task,setTask]= useState() make sure its imported on top
+//delete app.test and logo from bar
+//add an onChange={event =>console.log(event.target.value)} in newtask.js to test 
+//were gonna create a new tas in newtask.js const taskObject ={task:this is my new task}
+//create button to send new task to API on newtask.js with an onclick () => console.log('pressing here')
+//create a handlebuttonsubmit function in newtask.js for the button
+//in onclick replace console.log w {handlebuttonsubmit}
+//create a fetch() in newtask.js with the address of API our url from tasklist.js
+//include .then and .catch and include method and headers in newtask.js
+//fill in the .then and body.json.strigify in newtask.js
+//newtask.js add taskObject in body JSON.strigify
+//newtask.js create const handleinputtext = (event ) and pass it in onchange
+//create a console.log newTask in newtask.js
+//add newTask to task: on newTask.js
