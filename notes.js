@@ -68,3 +68,19 @@
 //newtask.js create const handleinputtext = (event ) and pass it in onchange
 //create a console.log newTask in newtask.js
 //add newTask to task: on newTask.js
+//in newtask.js remove the extra .then and the 1 .then just leave it blank
+//in taskList cut usestate  and paste it in main.js and add import {useState} in react
+//keep useeffect import in tasklist.js
+//also add in main.js in the return the tasks = {tasks} setTasks = {setTasks}
+//in main add set task in <NewTask becasue it is also ca child component and we are passing it in
+//in newtask.js pull in setTasks from main into the function bc we are destructoring
+//when we have curly braces and we are pulling out of the props its called destructoring
+//now we need to use our set tasks in newtask.js in then. get back a (()"result" => we r going to refetch our entire list of tasks
+//add value ={newTask} to newTask.js in input placeholder in .then put setNewTask('') to make the website clear once u post task
+//in newtask.js add if statement in handlbuttonsumbit with a return so when u click submit it doesnt send empty fields
+// in Newtask.js add ant.design input search replace return elements on bottom w onsearch =handlebuttonsubmit etc
+//edit list element in return field in tasklist.js go to ant.design get the size border, render item = from input 
+//command P to switch folders and import from antd import menu,layout
+//create a higherorder component <layout> to app.js its a higher order component bc its wrapping the whole thing
+//inside header of layout on APP.js write Much to Do and add color white so we can see text
+//Add layout.content in app.js create a const styles above app to make it neater and styles.header for each line in return
